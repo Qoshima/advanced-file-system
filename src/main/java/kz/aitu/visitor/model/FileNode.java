@@ -3,7 +3,7 @@ package kz.aitu.visitor.model;
 
 import kz.aitu.visitor.visitor.Visitor;
 
-public class FileNode implements Element {
+public class FileNode extends AbstractNode {
 
     private final String name;
     private final long size;
